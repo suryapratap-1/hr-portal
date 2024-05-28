@@ -3,6 +3,7 @@ export default function Home({ children, }: Readonly<{ children: React.ReactNode
     return (
         <main className="min-h-screen p-4 bg-gray-600 dark:bg-inherit dark:text-white">
             <h1 className="flex justify-center text-3xl">Home Page</h1>
+            {children}
         </main>
     );
 }
