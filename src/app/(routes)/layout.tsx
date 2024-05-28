@@ -2,7 +2,7 @@
 import Sidemenu from "@/components/Sidemenu";
 import { usePathname } from "next/navigation";
 
-export default function routesLayout({ children, }: Readonly<{ children: React.ReactNode; }>) {
+export default function RoutesLayout({ children, }: Readonly<{ children: React.ReactNode; }>) {
     const path = usePathname()
 
     return (
