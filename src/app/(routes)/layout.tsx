@@ -1,4 +1,3 @@
-// import Navbar from "@/components/Navbar";
 "use client";
 import Sidemenu from "@/components/Sidemenu";
 import { usePathname } from "next/navigation";
@@ -12,7 +11,6 @@ export default function routesLayout({ children, }: Readonly<{ children: React.R
                 {
                     path.includes("/notification") ? undefined : <Sidemenu />
                 }
-                {/* <Sidemenu /> */}
                 {children}
             </div> 
         </section>
